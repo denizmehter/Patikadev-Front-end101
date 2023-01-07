@@ -1,0 +1,49 @@
+body {
+    background-color: #FAF8F1;
+}
+
+section {
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+section h1 {
+    color:crimson;
+    font-size: 1.5em;
+}
+
+img {
+    width: 25em;
+    height: 25em;
+    padding-left: 130px;
+}
+
+header {
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+header h1 {
+    color:brown;
+    font-size: 3em;
+    margin-bottom: 0px;
+    padding-left: 200px;
+    padding-bottom: 5px;
+}
+
+footer {
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+table{
+    padding-top: 5px;
+    padding-left: 130px;
+}
+
+td {
+    padding-left: 3em;
+}
