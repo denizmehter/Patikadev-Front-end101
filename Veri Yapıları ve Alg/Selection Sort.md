@@ -15,3 +15,10 @@
 Big-O Notation: İşlem sayısı n, n-1, n-2...1 şeklinde olacağından, işlem sayısı toplamı n.(n+1)/2; dominant faktörü n²'dir. O(n²)
 
 18 Sayısı düzenlenen dizinin ortalarında yer aldığı için average case sayılır.
+
+## Selection Sort [7,3,5,8,2,9,4,15,6]
+
+1. [2] en küçük eleman olduğu için en baştaki elemanla ([7]) yer değiştiricek. Yeni dizi [2,3,5,8,7,9,4,15,6] olucak
+2. [3] sıradaki en küçük eleman olduğu ve en baştan  ikinci eleman olduğu için dizi bozulmuycak.
+3. [4]  sıradaki en küçük eleman olduğu için en baştaki üçüncü elemanla ([5]) yer değiştiricek. Yeni dizi [2,3,4,8,7,9,5,15,6] olucak
+4. [5] sıradaki en küçük eleman olduğu için en baştaki dördüncü elemanla ([8]) yer değiştiricek. Yeni dizi [2,3,4,5,7,9,8,15,6] olucak
