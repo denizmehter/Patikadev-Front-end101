@@ -12,6 +12,6 @@
 8. [18] dizinin dürdüncü elemanıyla yer değiştirir. Yeni dizi [2,6,16,18,22,27] olur.
 9. Yeni dizi küçükten büyüğe sıralandığı için algoritma durur.
 
-Big-O Notation: Insertion sort algoritmasında olabilecek işlem sayısı sırasıyla 1,2,3,...,n olduğu için Linear Complexitiy olur.
+Big-O Notation: İşlem sayısı n, n-1, n-2...1 şeklinde olacağından, işlem sayısı toplamı n.(n+1)/2; dominant faktörü n²'dir. O(n²)
 
 18 Sayısı düzenlenen dizinin ortalarında yer aldığı için average case sayılır.
