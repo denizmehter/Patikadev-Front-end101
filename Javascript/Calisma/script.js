@@ -1,8 +1,8 @@
 let formDOM = document.querySelector('#userForm')
 formDOM.addEventListener('submit', eventHandler)
 let alarm = document.querySelector('#alert');
-const ALERT = (message) => `<div class="alert alert-warning alert-dismissible fade show" role="alert">
-<strong>${message}</strong> 
+const ALERT = (title, message, sinif=warning) => `<div class="alert alert-${sinif} alert-dismissible fade show" role="alert">
+<strong>${title}</strong> ${message}
 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>`
 
@@ -14,9 +14,10 @@ function eventHandler(event){
         addItem(user_name,user_mail);
         user_name.value = "";
         user_mail.value = "";
+        alarm.innerHTML = ALERT("Başarılı!","Bilgiler Kaydedildi","success");
     }
     else {
-        alarm.innerHTML = ALERT("Eksik Alanları Doldurunuz!");
+        alarm.innerHTML = ALERT("Eksik Bilgi","Eksik Alanları Doldurunuz!","danger");
     }
 }
 
